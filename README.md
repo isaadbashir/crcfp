@@ -50,10 +50,6 @@ python3 train.py --config configs/bcss_config_file.json
 ```
 
 
-## Pre-trained Models
-
-For your convenience, you can download some of the pre-trained models from [Here](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155154502_link_cuhk_edu_hk/EpHdT2JFT11FpsUc4jHE3CoB2wUZ5tQo_W0QzzqHdNtF-A?e=yx2Xha).
-
 # Related Repositories
 
 This repository highly depends on the **CCT** repository at https://github.com/yassouali/CCT and **CAC** repository at https://github.com/dvlab-research/Context-Aware-Consistency. We thank the authors for their great work and clean code.
