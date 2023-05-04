@@ -67,13 +67,8 @@ def main(gpu, ngpus_per_node, config, resume, test):
     config['val_loader']['config_dir'] = config['config_dir']
     config['model']['epochs'] = config['trainer']['epochs']
 
-    if config['dataset'] == 'voc':
-        sup_dataloader = dataloaders.VOC
-        unsup_dataloader = dataloaders.PairVOC
-    elif config['dataset'] == 'cityscapes':
-        sup_dataloader = dataloaders.City
-        unsup_dataloader = dataloaders.PairCity
-    elif config['dataset'] == 'bcss':
+
+    if config['dataset'] == 'bcss':
         sup_dataloader = dataloaders.BCSS
         unsup_dataloader = dataloaders.PairBCSS
     elif config['dataset'] == 'monuseg':
