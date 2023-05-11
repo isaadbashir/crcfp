@@ -54,13 +54,6 @@ python3 train.py --config configs/bcss_config_file.json
 
 This repository highly depends on the **CCT** repository at https://github.com/yassouali/CCT and **CAC** repository at https://github.com/dvlab-research/Context-Aware-Consistency. We thank the authors for their great work and clean code.
 
-Besides, we also borrow some codes from the following repositories.
-
-- **MoCo** at https://github.com/facebookresearch/moco. 
-- **Deeplabv3+** at https://github.com/jfzhang95/pytorch-deeplab-xception.
-- **Semseg** at https://github.com/hszhao/semseg
-
-Thanks a lot for their great work.
 
 # Citation
 If you find this project useful, please consider citing:
